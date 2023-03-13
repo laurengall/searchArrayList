@@ -30,7 +30,6 @@ class Main {
         running = true;
       }
     }
-
   }
 
   public static void odd(ArrayList<Integer> l) {
@@ -46,7 +45,6 @@ class Main {
     for (int x : odds) {
       System.out.print(x + " ");
     }
-
     System.out.println();
   }
 
@@ -63,7 +61,6 @@ class Main {
     for (int x : evens) {
       System.out.print(x + " ");
     }
-
     System.out.println();
   }
 }
