@@ -1,3 +1,5 @@
+
+// importing ArrayList and Scanner
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,6 +26,7 @@ class Main {
       runAgain = input.nextInt();
       if (runAgain == 2) {
         running = false;
+        System.out.println("Your current list is: " + list);
         odd(list);
         even(list);
       } else {
@@ -32,6 +35,7 @@ class Main {
     }
   }
 
+  // finds the odd numbers in the list
   public static void odd(ArrayList<Integer> l) {
     ArrayList<Integer> odds = new ArrayList<Integer>();
     for (int i : l) {
@@ -48,6 +52,7 @@ class Main {
     System.out.println();
   }
 
+  // finds the even numbers in the list
   public static void even(ArrayList<Integer> l) {
     ArrayList<Integer> evens = new ArrayList<Integer>();
     for (int i : l) {
